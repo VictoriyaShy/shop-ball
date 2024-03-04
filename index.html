@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Магазин воздушных шаров</title>
+</head>
+
+<body>
+    <header>
+        <h1>Магазин воздушных шаров</h1>
+
+        <div id="cart-info">
+            <span id="cart-count">0</span>
+            <img src="cart-icon.png" alt="Корзина">
+            <span id="cart-total">$0.00</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Ваш каталог товаров в основной части сайта -->
+<main>
+  <div class="product" data-id="1" data-name="Воздушный шар -синий" data-price="10.00">
+      <h2>Воздушный шар -синий</h2>
+      <p>Цена: $10.00</p>
+      <button class="add-to-cart">Добавить в корзину</button>
+  </div>
+
+  <div class="product" data-id="2" data-name="Воздушный шар -красный" data-price="15.00">
+    <h2>Воздушный шар -красный</h2>
+    <p>Цена: $15.00</p>
+    <button class="add-to-cart">Добавить в корзину</button>
+</div>
+
+  <!-- Добавьте другие товары аналогичным образом -->
+</main>
+
+<!-- Ваша корзина покупок -->
+<aside id="cart">
+  <h2>Корзина</h2>
+
+
+<!-- Добавьте поле для ввода промокода -->
+
+
+  <ul id="cart-items">
+      <!-- Здесь будут отображаться товары в корзине -->
+  </ul>
+
+
+
+  <p id="total">Сумма: $0.00</p>
+</aside>
+
+<script src="main.js"></script>
+
+
+    <footer>
+        <p>&copy; 2024 Магазин воздушных шаров. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
